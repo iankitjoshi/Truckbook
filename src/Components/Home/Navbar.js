@@ -9,7 +9,7 @@ function Navbar(){
 
             <nav class="navbar navbar-expand-lg ">
                 {/* <a class="navbar-brand" href="#">Navbar</a> */}
-                <img src={logo} className="home-truckbook-logo" />
+                <img src={logo} className="home-truckbook-logo" alt="truckbook" />
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -17,19 +17,19 @@ function Navbar(){
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="side  navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a className="navbar-nav-names   nav-link" href="#">Login  |<span class="sr-only">(current)</span></a>
+                        <a className="navbar-nav-names   nav-link" href="/login">Login  |<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a className="navbar-nav-names   nav-link" href="#">Sign Up   |</a>
+                        <a className="navbar-nav-names   nav-link" href="/signup">Sign Up   |</a>
                     </li>
                     <li class="nav-item">
-                        <a className="navbar-nav-names  nav-link" href="#">Contact Us     |</a>
+                        <a className="navbar-nav-names  nav-link" href="/contactus">Contact Us     |</a>
                     </li>
                     <li class="nav-item">
-                        <a className="navbar-nav-names  nav-link" href="#">Blog  |</a>
+                        <a className="navbar-nav-names  nav-link" href="/blog">Blog  |</a>
                     </li>
                     <li class="nav-item">
-                        <a className="navbar-nav-names  nav-link" href="#">FAQ</a>
+                        <a className="navbar-nav-names  nav-link" href="/faq">FAQ</a>
                     </li>
                     
                     </ul>

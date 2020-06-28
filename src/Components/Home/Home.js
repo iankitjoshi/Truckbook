@@ -21,8 +21,8 @@ class Home extends React.Component{
                 <h1 className="home-h1-text"> Re-imagining Logistics with <br /> Power of AI </h1>
             </div> <br />
             {/* <div className="home-appstore-div  row"> */}
-              <a href="https://itunes.apple.com/us/app/truckbook/id1440696027?mt=8" target="_blank" > <img src={appstore} className="home-appstore" /> </a> 
-               <a href="https://play.google.com/store/apps/details?id=com.techindustan.truckbook&hl=en" target="_blank" > <img src={playstore} className="home-googlestore" /> </a>
+              <a rel="noopener noreferrer" href="https://itunes.apple.com/us/app/truckbook/id1440696027?mt=8" target="_blank" > <img src={appstore} className="home-appstore" alt="appstore" /> </a> 
+               <a rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.techindustan.truckbook&hl=en" target="_blank" > <img src={playstore} className="home-googlestore" alt="googleplay" /> </a>
             {/* </div> */}
 
             <form className="home-form">

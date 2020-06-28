@@ -5,7 +5,7 @@ function FullHome(){
     return(
         <div>
 
-        <Home />
+            <Home />
 
         </div>
     )

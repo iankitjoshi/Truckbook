@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter , Route } from 'react-router-dom'
-import FullHome from './Components/Home/FullHome';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import FullPage from './Components/FullPage';
 
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
    <BrowserRouter >
 
 
-    <Route path="/" component={FullHome} />
+    <Route path="/" component={FullPage} />
+    
    </BrowserRouter>   
   );
 }
