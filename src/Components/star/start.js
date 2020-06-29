@@ -12,7 +12,7 @@ class Start extends React.Component{
     render() {
         return (
             <div className="star-div">
-                <a href="https://itunes.apple.com/us/app/truckbook/id1440696027?mt=8" target="_blank">
+                <a href="https://itunes.apple.com/us/app/truckbook/id1440696027?mt=8" target="_blank" rel="noopener noreferrer" >
                     <img src={star} alt="start" className="start-startimg" />
                 </a> <br />
                 <br />
